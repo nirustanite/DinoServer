@@ -6,26 +6,12 @@ const Dinosaur = db.define('dinosaur', {
         type: Sequelize.STRING,
         allowNull: false
     },
-    strength:{
-        type: Sequelize.INTEGER,
-        allowNUll: false
-    },
-    type:{
-        type: Sequelize.INTEGER,
-        allowNUll: false
-    }, 
-    height:{
-        type: Sequelize.INTEGER,
-        allowNUll: false
-    }, 
-    foodhabits:{
-        type: Sequelize.INTEGER,
-        allowNUll: false
-    },
-    looks:{
-        type: Sequelize.INTEGER,
-        allowNUll: false
-    }
+   dinoid: {
+       type: Sequelize.INTEGER,
+       allowNull: false
+   }
+},{
+    timestamps:false
 })
 
 
