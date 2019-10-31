@@ -19,11 +19,14 @@
   },
   "homepage": "https://github.com/nirustanite/DinoServer#readme",
   "dependencies": {
+    "file-system": "^2.2.2",
     "koa": "^2.3.0",
     "koa-bodyparser": "^2.5.0",
     "koa-cors": "0.0.16",
     "koa-route": "^3.2.0",
     "koa-router": "^7.4.0",
+    "koa-send": "^5.0.0",
+    "koa-static": "^5.0.0",
     "pg": "^7.12.1",
     "sequelize": "^5.21.1"
   }

@@ -1,26 +1,19 @@
 const listOfQuestions = [
     {
         question:"What type of pet do you like??",
-        choice1:"Birds",
-        choice2:"Dogs",
-        choice3:"SeaCreatures"
+        choices:["Birds","Dogs","SeaCreatures"]
     },
     {
         question:"What type of food you prefer for your pet??",
-        choice1:"Plants",
-        choice2:"PlantAndMeat",
-        choice3:"Meat"
+        choices:["Plants","PlantAndMeat","Meat"]
     },
     {
         question:"WHich height will you prefer for your pet??",
-        choice1:"Tall",
-        choice2:"Short",
-        choice3:"Medium"
+        choices:["Tall","Short","Medium"]
     },
     {
         question:"How do you prefer your pet to look like??",
-        choice1:"Cute",
-        choice2:"Ferocious"
+        choices:["Cute","Ferocious"]
     }
 ]
 

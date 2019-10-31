@@ -2,6 +2,10 @@ const Router = require('koa-router');
 const Dinosaur = require('./model');
 const calculatedinoId = require('./calculatedinoId');
 const router = new Router();
+let fs = require('fs'); 
+const send = require('koa-send');
+const serve = require('koa-static');
+const basePath="/home/nirupamaa/Desktop/codaisseur/week-10/findmydino/imagesdino"
 
 router.post('/dinosaur', async(ctx,next) => {
     return Dinosaur.create(ctx.request.body)
@@ -28,6 +32,7 @@ router.post('/dinosaurname', async(ctx, next) => {
        })
 
 })
+
 
 
 module.exports = router;
